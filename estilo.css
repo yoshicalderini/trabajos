@@ -1,0 +1,57 @@
+#tarjetas {
+    display: flex; /* para que todo el contenido se me ponga uno al lado del otro */
+    justify-content: center; /*para que las tres img me queden centradas */ 
+    background: #efefef; /* al poner esto, me quedan bordes en blanco y los saco con body margin 0 y padding 0*/ 
+}
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+
+.tarjeta img { /* las img que esten dentro de cada div class tarjeta..*/
+    width: 100%;
+}
+
+.tarjeta {
+    width: 20%;
+    margin: 30px 30px 30px 30px; 
+    background: white;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+
+h2 { /* porque es el unico que esta*/
+    font-size: 17px;
+    color: #1f1c18;
+    font-family: 'Bitter', serif;
+}
+
+.profesion {
+    color:  #dcd9cf;
+}
+
+.descripcion{
+    line-height: 25px;
+    color: #7a623f;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button{
+    font-size: 25px;  /*aumento el tamaño de los iconos*/ 
+    background-color: white;
+    border:none;
+    cursor:pointer;
+    letter-spacing: 5pt;
+}
+
+.autor {
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+}
